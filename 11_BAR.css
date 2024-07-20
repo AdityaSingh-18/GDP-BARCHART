@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin:0;
+}
+.bar {
+    fill: navy;
+}
+.bar:hover {
+    fill: orange;
+}
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+#tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
